@@ -1,0 +1,17 @@
+things to use:
+==========================
+
+particle.js
+animate.js
+parallax.js
+scrollOut
+bootstrap
+jQuery
+DarkModeSwitch
+DarkMode.js
+Background-Check
+React
+Button Libraries: https://bashooka.com/coding/20-cool-css-buttons-2017/
+Icon Libraries: https://bashooka.com/coding/css-javascript-icon-libraries-2020/
+tribute.js
+typeAhead
