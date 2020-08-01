@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cinzel&family=Lato&family=Montserrat:wght@100;300&family=Nunito:wght@200;400&family=Playfair+Display:wght@400;500&family=Quicksand:wght@300;500&family=Raleway:wght@200;300;400&family=Roboto&family=Sacramento&display=swap");
+* {
+  color: white;
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sacramento', cursive;
+}
+
+.red {
+  height: 50vh;
+  background-color: #f00;
+}
+
+.blue {
+  height: 50vh;
+  background-color: #00f;
+}
+/*# sourceMappingURL=style.css.map */

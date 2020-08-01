@@ -1,6 +1,6 @@
 import React from 'react'
 import Menu from './Menu'
-
+// import '../css/style.css'
 const Base = ({
     title = "The default Base Title",
     description = "Default description",
@@ -8,7 +8,13 @@ const Base = ({
     children
 }) => {
     return (
-        <Menu />
+        <>
+            <Menu />
+            <div className="red">a</div>
+            <div className="blue">b</div>
+            <div className="red">a</div>
+            <div className="blue">b</div>
+        </>
     )
 }
 
