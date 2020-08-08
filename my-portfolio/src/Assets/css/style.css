@@ -110,7 +110,8 @@ body {
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
-  color: blanchedalmond !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
 }
 
 .faicons {
@@ -128,5 +129,14 @@ body {
 
 .horizontal-line {
   margin-top: -1.45em !important;
+}
+
+#tooltip {
+  background-color: #333;
+  color: white;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -95,8 +95,7 @@ body{
 .icons{
     justify-content: center !important;
     align-items: center !important;
-    // margin: 0 10em;
-    color: blanchedalmond !important;
+    box-sizing: border-box !important;
 }
 
 .faicons{
@@ -114,3 +113,11 @@ body{
 .horizontal-line{
     margin-top: -1.45em !important;
 }
+#tooltip {
+    background-color: #333;
+    color: white;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+  }

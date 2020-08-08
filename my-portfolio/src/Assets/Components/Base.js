@@ -18,11 +18,14 @@ const Base = ({
             <Particle />
             <Container className="mt-5 pt-5">
                 <Row className="">
-                    <Col xl={4} className="text-xl-right text-center text-white mt-5">
+                    <Col xl={4} className="text-xl-right text-center text-white mt-5 ">
                         <Image src={face} alt="My Face" className="face" />
-                        <Row className="justify-content-lg-center  mx-auto icons mt-1" style={{ maxWidth: "42rem"}}>
+                        <Row className="justify-content-lg-center  mx-auto icons py-4" style={{ maxWidth: "42rem"}}>
                             <Col className="float-lg-center float-left">
-                                <SocialMediaLinks />
+                                <SocialMediaLinks name="Instagram" />
+                                <SocialMediaLinks name="Github" />
+                                <SocialMediaLinks name="Gmail" />
+                                <SocialMediaLinks name="Linkedin" />
                             </Col>
                             <Col xl={2} ></Col>
                         </Row>
@@ -30,7 +33,7 @@ const Base = ({
                     <Col xl={8} className="text-xl-left  text-center text-white">
                         <Row>
                             <Col xl={1}></Col>
-                            <Col className="intro mt-5 ">
+                            <Col className="intro mt-4 ">
                                 {title}
                             </Col>
                         </Row>
@@ -40,15 +43,15 @@ const Base = ({
                                 <Image src={horizontalLine} alt="Horizontal-line" className="float-xl-left " roundedCircle />
                             </Col>
                         </Row>
-                        <Row className="mr-auto pt-3 description" >
+                        <Row className="mr-auto pt-3 description justify-content-lg-center" >
                             <Col xl={1}></Col>
-                            <Col>
+                            <Col className="">
                                 <p style={{ maxWidth: '45rem', }} >
                                     I'm a 3<span className="sup font-weight-light">rd</span>  year student pursuing B.E. in Information Technology from <a href="http://" target="_blank" rel="noopener noreferrer" className="text-decoration-none">Jadavpur University</a>, Kolkata. I've born and brought up in <a href="http://" target="_blank" rel="noopener noreferrer" className="text-decoration-none">Malda</a>, WestBengal.
                                 </p>
                             </Col>
                         </Row>
-                        <Row className="mr-auto pt-3 description" >
+                        <Row className="mr-auto pt-3 description justify-content-lg-center" >
                             <Col xl={1}></Col>
                             <Col>
                                 <p style={{ maxWidth: '45rem', }} >
@@ -56,7 +59,7 @@ const Base = ({
                                 </p>
                             </Col>
                         </Row>
-                        <Row className="mr-auto pt-3 description" >
+                        <Row className="mr-auto pt-4 description justify-content-lg-center" >
                             <Col xl={1}></Col>
                             <Col>
                                 <p style={{ maxWidth: '45rem', }} >
