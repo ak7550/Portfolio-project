@@ -84,7 +84,6 @@ body {
   word-spacing: 0em;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-right: 2px;
 }
 
 .face {
@@ -125,5 +124,9 @@ body {
   height: 1.75em;
   width: 1.75em;
   opacity: 1;
+}
+
+.horizontal-line {
+  margin-top: -1.45em !important;
 }
 /*# sourceMappingURL=style.css.map */
