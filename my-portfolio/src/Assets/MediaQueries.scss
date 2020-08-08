@@ -1,0 +1,10 @@
+@import 'Variables';
+
+@media (max-width: $tablet){
+    .icons{
+        justify-content: center !important;
+        text-align: center !important;
+        max-width: 270px;
+        margin: 0 3em;
+    }
+}

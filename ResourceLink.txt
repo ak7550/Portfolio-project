@@ -1,6 +1,5 @@
 things to use:
 ==========================
-
 particle.js
 animate.js
 parallax.js
@@ -15,3 +14,15 @@ Button Libraries: https://bashooka.com/coding/20-cool-css-buttons-2017/
 Icon Libraries: https://bashooka.com/coding/css-javascript-icon-libraries-2020/
 tribute.js
 typeAhead
+
+LOGO PREFERED FONTS:--
+=========================
+Adobe Arabic
+Adobe Caselon pro
+Adobe Garemond pro
+Adobe Hebrew
+Alpha Crisp
+
+navbar bgc:-
+=============
+1b1b1b==> initial, but at the top, background opacity is 0

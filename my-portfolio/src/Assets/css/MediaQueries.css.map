@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,MAAM,CAAA;IACF,eAAe,EAAE,iBAAiB;IAClC,UAAU,EAAE,iBAAiB;IAC7B,SAAS,EAAE,KAAK;IAChB,MAAM,EAAE,KAAK;GAChB",
+    "sources": [
+        "../MediaQueries.scss",
+        "../Variables.scss"
+    ],
+    "names": [],
+    "file": "MediaQueries.css"
+}

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .icons {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center !important;
+    max-width: 270px;
+    margin: 0 3em;
+  }
+}
+/*# sourceMappingURL=MediaQueries.css.map */

@@ -1,35 +1,113 @@
+@import 'MediaQueries';
+@import 'Variables';
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cinzel&family=Lato&family=Montserrat:wght@100;300&family=Nunito:wght@200;400&family=Playfair+Display:wght@400;500&family=Quicksand:wght@300;500&family=Raleway:wght@200;300;400&family=Roboto&family=Sacramento&display=swap');
-*{
 
-    color: white;
-    font-size: 24px;
-        
-    font-family: 'Caveat', cursive;
+body{
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.red .blue{
+    color: red;
+}
 
-    font-family: 'Cinzel', serif;
-
-    font-family: 'Lato', sans-serif;
-
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Nunito', sans-serif;
-
-    font-family: 'Playfair Display', serif;
-
-    font-family: 'Quicksand', sans-serif;
-
-    font-family: 'Raleway', sans-serif;
-
+.nav{
     font-family: 'Roboto', sans-serif;
-
-    font-family: 'Sacramento', cursive;
+    color: white;
+    font-size: 15.75px;
+    line-height: 27.5667px;
+    vertical-align: baseline;
+    letter-spacing: 0.449978px;
+    word-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: rgb(255, 255, 255);
+    text-align: start;
+    text-indent: 0px;
+    height: 11vh;
+    overflow-y: hidden;
+    // box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.dropdown-item{
+    font-weight: lighter;
+    text-transform: capitalize;
+    opacity: 0.65;
 }
 
-.red{
-    height: 50vh;
-    background-color: #f00;
+.navbar-logo{
+  height: 8vh;
 }
-.blue{
-    height: 50vh;
-    background-color: #00f;
+.particlejs{
+    position:fixed !important;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100%;
+    background-color: #1b1b1b;
+    z-index: -3;
+    display:block;
+    // background: transparent;
+}
+.imageOver{
+    z-index: 1;
+}
+.row{
+    // height: 4px;
+    .intro{
+        font-family: 'Cinzel', serif;
+        // margin-left: -1em;
+        font-size: 42px;
+        line-height: 84.0167px;
+        vertical-align: baseline;
+        letter-spacing: -1.1246px;
+        word-spacing: 0em;
+        // overflow: hidden;
+        z-index: 4;
+    }
+}
+
+.description{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    word-spacing: 0em;
+    box-sizing: border-box;
+    padding-right: 2px;
+}
+
+.face{
+    height: 15em;
+}
+.hide-y-scrollbar{
+    overflow-y: hidden;
+}
+.hide-x-scrollbar{
+    overflow-x: hidden;
+}
+.sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+.icons{
+    justify-content: center !important;
+    align-items: center !important;
+    // margin: 0 10em;
+    color: blanchedalmond !important;
+}
+
+.faicons{
+    height: 1.5em;
+    width: 1.5em;
+    padding: 0 0.2em;
+    opacity: 0.6;
+}
+.faicons:hover{
+    height: 1.75em;
+    width: 1.75em;
+    opacity: 1;
 }

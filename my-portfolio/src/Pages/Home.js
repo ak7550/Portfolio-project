@@ -3,8 +3,8 @@ import Base from '../Assets/Components/Base'
 
 const Home = () => {
     return (
-        <Base title="Strating Home Page"
-            description="Don't have much idea what to do now."
+        <Base title="Hi, I'm Aniket"
+            description="I mostly spend my time designing and developing scalable web applications, or contributing to open source."
         />
     )
 }
