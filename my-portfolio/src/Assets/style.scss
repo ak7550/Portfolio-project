@@ -114,10 +114,9 @@ body{
     margin-top: -1.45em !important;
 }
 #tooltip {
-    background-color: #333;
     color: white;
-    position: relative;
-    padding: 5px 10px;
+    position: absolute;
+    padding: 10px 10px;
     border-radius: 4px;
     font-size: 13px;
   }

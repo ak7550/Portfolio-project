@@ -22,11 +22,10 @@ const SocialMediaLinks = ({ name }) => {
     
     return (
         <OverlayTrigger
-            target="hover"
-            placement="bottom-end" 
-            delay={{ show: 250, hide: 400 }}
-            overlay={() =>
-                <Tooltip id="tooltip" >
+            trigger="hover"
+            placement="top" 
+            overlay={(props) =>
+                <Tooltip id="tooltip" {...props} >
                     <strong>
                         {name}
                     </strong>
