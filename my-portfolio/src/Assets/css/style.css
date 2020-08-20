@@ -10,6 +10,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,6 +25,7 @@ body {
 
 .red .blue {
   color: red;
+  height: 100vh;
 }
 
 .nav {
@@ -40,13 +45,6 @@ body {
   text-align: start;
   text-indent: 0px;
   height: 11vh;
-  overflow-y: hidden;
-}
-
-.dropdown-item {
-  font-weight: lighter;
-  text-transform: capitalize;
-  opacity: 0.65;
 }
 
 .navbar-logo {
@@ -124,6 +122,14 @@ body {
 .faicons:hover {
   height: 1.75em;
   width: 1.75em;
+  opacity: 1;
+}
+
+.navbar-elements {
+  opacity: 0.6;
+}
+
+.navbar-elements:hover {
   opacity: 1;
 }
 
