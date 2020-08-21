@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaFacebookF, FaFacebookSquare, FaDribbble, FaL
 import { Link, Route } from 'react-router-dom'
 import { FiMail } from 'react-icons/fi'
 
-const SocialMediaLinks = ({ name }) => {
+const SocialMediaLinks = ({ name, link }) => {
     const setIcon = (name) => {
         switch (name) {
             case "Instagram":
@@ -22,7 +22,6 @@ const SocialMediaLinks = ({ name }) => {
     
     return (
         <OverlayTrigger
-            trigger="hover"
             placement="top" 
             overlay={(props) =>
                 <Tooltip id="tooltip" {...props} >
@@ -32,7 +31,7 @@ const SocialMediaLinks = ({ name }) => {
                 </Tooltip>
             }
         >
-            <a href="#" className="text-white">{setIcon(name)}</a>
+            <a href={link} className="text-white">{setIcon(name)}</a>
         </OverlayTrigger>
     )
 }

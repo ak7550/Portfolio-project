@@ -52,13 +52,14 @@ const Menu = ({ history }) => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                     <NavDropdown title="My Life" id="collasible-nav-dropdown" className="">
+                        <Dropdown.Divider style={{ color: "#000" }} />
                         {
                             navBarDropDown.map((obj, index) =>
                                 <div >
                                     <NavDropdown.Item
                                         to={obj.route}
                                         href={obj.href}
-                                        className="dropdown-item"
+                                        className="dropdown-item navbar-elements text-left"
                                         style={currentTab(history, obj.route)}
                                     >
                                         {obj.name}

@@ -51,6 +51,24 @@ body {
   height: 8vh;
 }
 
+.dropdown-item {
+  font-weight: normal;
+  padding-left: 0.4rem;
+  text-transform: none;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.dropdown-menu {
+  width: 13rem;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: transparent;
+}
+
 .particlejs {
   position: fixed !important;
   left: 0;
@@ -110,6 +128,7 @@ body {
           align-items: center !important;
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
+  position: relative;
 }
 
 .faicons {
@@ -135,13 +154,5 @@ body {
 
 .horizontal-line {
   margin-top: -1.45em !important;
-}
-
-#tooltip {
-  color: white;
-  position: absolute;
-  padding: 10px 10px;
-  border-radius: 4px;
-  font-size: 13px;
 }
 /*# sourceMappingURL=style.css.map */

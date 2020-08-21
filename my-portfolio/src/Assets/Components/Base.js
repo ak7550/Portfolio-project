@@ -20,12 +20,12 @@ const Base = ({
                 <Row className="">
                     <Col xl={4} className="text-xl-right text-center text-white mt-5 ">
                         <Image src={face} alt="My Face" className="face" />
-                        <Row className="justify-content-lg-center  mx-auto icons py-4" style={{ maxWidth: "42rem"}}>
-                            <Col className="float-lg-center float-left">
-                                <SocialMediaLinks name="Instagram" />
-                                <SocialMediaLinks name="Github" />
-                                <SocialMediaLinks name="Gmail" />
-                                <SocialMediaLinks name="Linkedin" />
+                        <Row className="justify-content-lg-center  mx-auto py-4" style={{ maxWidth: "42rem"}}>
+                            <Col className="float-lg-center float-left icon-link ">
+                                <SocialMediaLinks name="Instagram" link="#" />
+                                <SocialMediaLinks name="Github" link="#" />
+                                <SocialMediaLinks name="Gmail" link="#" />
+                                <SocialMediaLinks name="Linkedin" link="#"/>
                             </Col>
                             <Col xl={2} ></Col>
                         </Row>
